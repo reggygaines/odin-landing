@@ -1,0 +1,1 @@
+This is the final assignment under The Odin Project's CSS foundations curriculum. For this project, I will re-create a landing page from scratch using HTML and CSS. 
