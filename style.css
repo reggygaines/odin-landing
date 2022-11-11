@@ -17,9 +17,10 @@ body {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 600;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 12px 25px;
+    padding: 12px 25px 120px;
+    
 }
 
 .right-links {
@@ -39,4 +40,144 @@ a {
     color: #f9faf8;
     font-size: 16px;
     font-weight: 100;
+}
+
+.container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+    gap: 50px;
+}
+
+.left-side {
+    width: 350px;
+    
+}
+
+#office {
+    width: 550px;
+    height: auto;
+}
+
+p {
+    flex-wrap: wrap;
+    font-weight: 50px;
+    margin-top: 0px;
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: #f9faf8;
+}
+
+#awesome-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 20px;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+    font-size: 50px;
+    gap: 60px
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 75px;
+    margin-bottom: 60px;
+}
+
+.info {
+    max-width: 200px;
+    max-height: auto;
+}
+
+img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.card {
+    font-size: 16px;
+    text-align: center;
+    color: #1f2937;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 60px 200px;
+    
+}
+
+#quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-bottom: 0px;
+
+}
+
+#name {
+    color: #1f2937;
+    text-align: right;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.container-four {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    gap: 100px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#action-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 7px 27px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#call {
+    color: #f9faf8;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 30px;
 }
